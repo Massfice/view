@@ -1,0 +1,20 @@
+{
+    "name": "massfice/view",
+    "description": "Wrapper for Smarty library. It's for my diploma project.",
+    "type": "library",
+    "require": {
+        "smarty/smarty": "^3.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Massfice",
+            "email": "adrian.marian.tomasz.larysz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Massfice\\View\\": "src/"
+        }
+    }
+}
